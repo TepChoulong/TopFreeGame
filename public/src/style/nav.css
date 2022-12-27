@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav-bar .nav-bar-container .nav-title {
+    font-family: 'Lobster', cursive;
+    margin-left: 4rem;
+}
+.nav-bar-container {
+    background-color: rgb(230, 102, 123);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.nav-bar-container ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-bar-container ul li {
+    display: inline;
+    margin-left: 4rem;
+    font-family: 'Lobster', cursive;
+}
+.nav-bar-container ul li a {
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+    color: black;
+}
+#search-field {
+    padding: 0.6rem;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    text-align: right;
+    font-family: 'Lobster', cursive;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}

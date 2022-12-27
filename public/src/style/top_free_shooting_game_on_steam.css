@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Lobster&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Kanit:wght@300&family=Lobster&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Kanit:wght@300&family=Lobster&family=PT+Sans+Narrow:wght@700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Kanit:wght@300&family=Lobster&family=Merriweather:wght@700&family=PT+Sans+Narrow:wght@700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Kanit&family=Lobster&family=Merriweather:wght@700&family=Roboto&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0;
+}
+
+
+html {
+    user-select: none;
+}
+
+
+body {
+    background-color: rgb(95, 95, 95);
+}
+
+
+.title h1 {
+    padding-top: 2rem;
+    margin-left: 2rem;
+    font-size: 36pt;
+}
+.img-banner {
+    width: 950px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 2rem auto 0;
+}
+
+
+.body-container {
+    width: 1000px;
+    background-color: white;
+    padding: 0 0 2rem 0;
+    margin: 0 auto 0;
+}
+
+
+.game {
+    margin: 3rem;
+}
+.game h2 {
+    margin: 0 0 1rem 0;
+    font-family: 'Merriweather', serif;
+}
+.game #description {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 12pt;
+}
+.game .check-btn {
+    position: relative;
+    left: 6.5rem;
+    width: 180px;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 15px;
+    border: none;
+    font-size: 11pt;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+.game-container {
+    display: flex;
+    align-items: center;
+    margin-left: 1.5rem;
+}
+.game-container img {
+    margin-top: 1.8rem;
+    width: 350px;
+    aspect-ratio: 4 / 4;
+    border: 1px solid black;
+}
+.game-container ul li {
+    margin: 2rem 0 2rem 5rem;
+    font-size: 16pt;
+    font-family: 'Roboto', sans-serif;
+}
